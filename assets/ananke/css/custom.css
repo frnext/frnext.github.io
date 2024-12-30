@@ -1,0 +1,15 @@
+.tts-button {
+  cursor: pointer;
+}
+
+
+mark, .french {
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 5px;
+}
+
+.quiz-correct-highlighted {
+  background-color: #feb43f;
+  border-radius: 5px;
+}

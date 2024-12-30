@@ -1,0 +1,11 @@
+{{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
+
+{{ with $pages.Prev . }}
+  <a href="{{ .RelPermalink }}">&lt; {{ .LinkTitle }}</a>
+{{ end }}
+
+|
+
+{{ with $pages.Next . }}
+  <a href="{{ .RelPermalink }}">{{ .LinkTitle }} &gt;</a>
+{{ end }}

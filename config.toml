@@ -1,0 +1,32 @@
+baseURL = '/'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+defaultContentLanguage = "en"
+sectionPagesMenu = "main"
+contentDir = "content/lessons"
+
+[params]
+custom_css = ["custom.css"]
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
+[markup.goldmark.extensions.extras.delete]
+enable = true
+
+[markup.goldmark.extensions.extras.insert]
+enable = true
+
+[markup.goldmark.extensions.extras.mark]
+enable = true
+
+[markup.goldmark.extensions.extras.subscript]
+enable = true
+
+[markup.goldmark.extensions.extras.superscript]
+enable = true
+
+[markup.goldmark.extensions.passthrough]
+enable = true
