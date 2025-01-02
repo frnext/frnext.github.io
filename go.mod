@@ -1,4 +1,4 @@
-module github.com/o-fedorov
+module github.com/frnext/frnext.github.io
 
 go 1.22.3
 
